@@ -1,0 +1,38 @@
+body{
+	background-color:#81A263;
+	text-align: justify;
+}
+h1{
+	background: linear-gradient(0deg, rgba(144,87,34,0.9024859943977591) 0%, rgba(253,187,45,1) 100%);
+	color: black;
+	border: solid;
+	border-color:#fdf7f7;
+	border-radius: 20px;
+	padding: 40px;
+	text-align: center;
+}
+*{
+	padding: 1px;
+	margin: 0px;
+}
+#header{
+	margin: auto;
+	width: 750px;
+	
+}
+ul, ol{
+	list-style: none;
+}
+.nav li a {
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+}
+.nav > li{
+	float: left;
+}
+.nav li a:hover{
+	background-color: #696666;
+}

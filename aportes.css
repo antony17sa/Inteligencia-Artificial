@@ -1,0 +1,38 @@
+body{
+	background-color:#E1AFD1;
+	text-align: justify;
+}
+h1{
+	background: #445D48;
+	color: white;
+	border: solid;
+	border-color:#fdf7f7;
+	border-radius: 20px;
+	padding: 40px;
+	text-align: center;
+}
+*{
+	padding: 1px;
+	margin: 0px;
+}
+#header{
+	margin: auto;
+	width: 750px;
+	
+}
+ul, ol{
+	list-style: none;
+}
+.nav li a {
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+}
+.nav > li{
+	float: left;
+}
+.nav li a:hover{
+	background-color: #696666;
+}
